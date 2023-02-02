@@ -41,8 +41,8 @@ export const Characters = ({characters, setCharacters}) => {
                     </div>
                 </div>
             ))}
-        <span className='back-home' onClick={resetCharacters}>come to home</span>
         </div>
+        <span className='back-home' onClick={resetCharacters}>come to home</span>
     </div>
   )
 }
